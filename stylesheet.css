@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch&family=Liu+Jian+Mao+Cao&family=Long+Cang&family=Syne+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Xanh+Mono&display=swap');
+
+.navbar-right .p-2{
+	color:white;
+}
+
+.navbar, h1, label, button, a {
+	/*font-family: 'Syne Mono', monospace;*/
+	font-family: 'Grenze Gotisch', cursive;
+}
+.sign-in-nav {
+	float: right;
+}
+
+.sign-in-nav a{
+	color:white;
+}
+.nav-item {
+	color: white;
+	font-size: 20px;
+}
+#login-img {
+	background-image: url("images/palace_museum_3.jpg");
+	/*filter: contrast(70%);
+	
+	background-size: 760px;*/
+	filter: contrast(110%);
+	
+	background-size: 900px;
+
+	height:510px;
+}
+
+
+#bg-img {
+	background-image: url("images/forbidden_city_3.jpg");
+	background-size: 1450px;
+	height: 500px;
+	filter: contrast(90%);
+  	background-attachment: fixed;
+}
+
+#bg-img h1 {
+	font-size: 150px;
+	color:#FFCA62;
+	/*position: fixed;
+	top: 100px;*/
+	text-align: center;
+	/*font-family: 'Syne Mono', monospace;*/
+	font-family: 'Long Cang', cursive;
+	/*font-family: 'Liu Jian Mao Cao', cursive;*/
+
+}
+#bg-img h2 {
+	font-family: 'Grenze Gotisch', cursive;
+	font-size:25px;
+	/*font-family: 'Liu Jian Mao Cao', cursive;*/
+	position: absolute;
+	right:380px;
+	/*color:#FFCA62;*/
+	color: #aa381e;
+}
+
+#footer, .description h1, .description li {
+	font-family: 'Grenze Gotisch', cursive;
+}
+.description p {
+	font-family: 'Grenze Gotisch', cursive;
+	font-size: 20px;
+}
+.description h2 {
+	font-family: 'Grenze Gotisch', cursive;
+	font-size:25px;
+	color: #bb2d0d;
+}
+
+.images{
+	filter: contrast(88%);
+}
+
+#go_to_section {
+	font-family: 'Grenze Gotisch', cursive;
+	font-size:30px;
+	position: absolute;
+	top:520px;
+	height: 30px;
+}
+
+#back-to-top-box {
+	display: block;
+	height: 50px;
+	width:50px;
+	background-color: #AA381E;
+	position:fixed;
+	top:730px;
+	right:5px;
+	color:#FFCA62;
+	text-align:center;
+	font-family: 'Grenze Gotisch', cursive;
+}
+
+.close-box {
+	border-radius: 3px;
+	margin-top:5px;
+	margin-left:34px;
+	display: block;
+	height: 25px;
+	width:150px;
+	background-color: #AA381E;
+	position:relative;
+	top:0px;
+	right:0px;
+	/*right:300px;*/
+	color:#FFCA62;
+	text-align:center;
+	font-family: 'Grenze Gotisch', cursive;
+}
+@media(max-width:991px){
+	.sign-in-nav {
+		position: relative;
+		margin-left:10px;
+	}
+}
+@media(max-width: 768px) {
+  	#back-to-top-box {
+    	top:630px;
+    }
+    .close-box {
+    	left:30px;
+    }
+
+    #login-img {
+    	background-image: url("images/palace_museum_3.jpg");
+    	height:150px;
+    	background-size: 600px;
+    }
+
+    #bg-img {
+		height:400px;
+		background-size: 750px;
+	}
+	#bg-img h1{
+		font-size: 75px;
+	}
+	#bg-img h2{
+		font-size:20px;
+		position: relative;
+		right: 100px;
+	}
+
+}
+@media(max-width: 576px){
+	#bg-img {
+		height:250px;
+		background-size: 650px;  
+		/*maybe 500px is better?*/
+	}
+	#bg-img h1{
+		font-size: 50px;
+	}
+	#bg-img h2{
+		font-size:20px;
+		position: relative;
+		right: 10px;
+		top:0px;
+	}
+
+}
+
+
+#footer{
+	display: block;
+	padding-top: 100px;
+}
