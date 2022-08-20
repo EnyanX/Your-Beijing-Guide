@@ -8,15 +8,20 @@ Your Beijing Guide is a full-stack, responsive web application, adopting an orig
 
 The application utilized PHP as the back-end language and MySQL as the database. There are three different user permission levels: general, registered users, and admin users. CRUD operations are provided to admin users.
 
+See more details in https://github.com/EnyanX/Your-Beijing-Guide/blob/main/project_summary.pdf
+
 # Project Glimpse
 Logging in & registration
+
 ![login](https://user-images.githubusercontent.com/109812678/185768692-2bb1001b-5610-4abd-b84d-ac6d61d50c9b.png)
 
 Home Page:
+
 <img width="969" alt="home part 1" src="https://user-images.githubusercontent.com/109812678/185768662-6ceb6d00-2424-4f75-ad13-2d286ece8fbc.png">
 <img width="1440" alt="home part 2" src="https://user-images.githubusercontent.com/109812678/185768663-0607abbe-de20-45e4-ac51-fed387649f82.png">
 
 Travel Tips:
+
 <img width="1440" alt="截屏2022-08-20 下午3 30 20" src="https://user-images.githubusercontent.com/109812678/185768672-ce5fa4a9-ba8a-4266-90b9-97e8e23bd272.png">
 <img width="1440" alt="截屏2022-08-20 下午3 31 25" src="https://user-images.githubusercontent.com/109812678/185768674-6b65ca6f-cfaf-4a03-b265-32572f297113.png">
 
@@ -29,6 +34,7 @@ Places of Interest (registered users only):
 <img width="1164" alt="截屏2022-08-20 下午3 39 51" src="https://user-images.githubusercontent.com/109812678/185768706-7ed586ac-727c-4ea1-a1e0-427f002044cf.png">
 
 CRUD operations (admin users only):
+
 <img width="1168" alt="截屏2022-08-20 下午3 40 27" src="https://user-images.githubusercontent.com/109812678/185768728-34db56d9-1e5e-4f30-babd-48e5dc4bf766.png">
 
 Responsive design:
